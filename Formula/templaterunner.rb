@@ -4,7 +4,7 @@ class Templaterunner < Formula
   url "https://github.com/callesvedin/TemplateRunner.git", tag: "0.1.0"
   version "0.1.0"
   
-  depends_on :xcode => ["12.0", :build]  
+  depends_on :xcode => ["11.0", :build]  
 
   def install
     system "make", "install", "prefix=#{prefix}"        
