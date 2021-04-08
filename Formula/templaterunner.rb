@@ -11,6 +11,6 @@ class Templaterunner < Formula
   end
 
   test do
-    system "#{bin}/TemplateRunner"
+    system "#{bin}/templaterunner"
   end
 end
